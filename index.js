@@ -39,7 +39,7 @@ http.createServer((request, response) => {
             response.write(registrationPage);
             response.end();
             break;
-        case "/script.js":
+        case "/scriptjs.js":
             response.write(registrationScript);
             response.end();
             break;
